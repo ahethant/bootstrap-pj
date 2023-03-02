@@ -1,0 +1,101 @@
+@font-face
+	{
+		font-family: "aat";
+		src:url(fonts/Oleo_Script/OleoScript-Regular.ttf);
+	}
+@font-face
+{
+	font-family: "a";
+	src:url(fonts/Bangers/Bangers-Regular.ttf);
+}
+#century
+{
+	padding:0;
+	margin:0;
+	font-family: aat;
+	font-size:45px;
+	color:#00E5FF;
+}
+*
+{
+	font-family: "aat";
+	font-size: 20px;
+}
+#banner
+{
+	background-image: url(images/3.jpg);
+	width: 100%;
+	height:100vh;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+#banner_1
+{
+	width: 100%;
+	height:100vh;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+#navtitle
+{
+	padding-top: 150px;
+}
+#divider
+{
+	max-width: 10rem;
+	border-width: .1rem;
+	border-color:#4DB6AC;
+}
+#contactbtn
+{
+	padding:1.25rem 2.25rem;
+	font-size: .85rem;
+	font-weight: 700;
+	border:none;
+	border-radius: 10rem;
+	background-color:#0097A7;
+	color: white;
+}
+#contact
+{
+	padding-top: 100px;
+}
+#card
+{
+	padding-top: 0;
+}
+
+#counter{
+	background: linear-gradient(rgba(0,0,0, 0.7),
+		rgba(0,0,0,0.5)),
+	url(images/7.jpeg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding: 10px;
+	height: 300px;
+	text-align: center;
+}
+
+nav.scrolled{
+	background-color: #1A275B;
+}
+
+#divider{
+	/*1rem=16px;*/
+	max-width: 3.25rem;
+	border-width: .2rem;
+	border-color: gray;
+}
+
+#work{
+	padding-top: 100px;
+}
+#card .card .card-body .back
+{
+	background-color: #1A275B;
+}
+#card .card .card-body .white{color:#ffff;}

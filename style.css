@@ -1,0 +1,315 @@
+@font-face
+	{
+		font-family: "aat";
+		src:url(fonts/Oleo_Script/OleoScript-Regular.ttf);
+	}
+@font-face
+{
+	font-family: "a";
+	src:url(fonts/Bangers/Bangers-Regular.ttf);
+} 
+@font-face
+{
+  font-family: "Unicode";
+  src:url('https://cdn.rawgit.com/LeonarAung/MyanmarFont/6cf1262f/mon3.woff') format('woff');
+}
+#century
+{
+	padding:0;
+	margin:0;
+	font-family: aat;
+	font-size:45px;
+	color:#00E5FF;
+}
+*
+{
+	font-family: "Unicode";
+}
+.color
+{
+  background-color: #303F9F;
+}
+#banner
+{
+	background-image: url(images/3.jpg);
+	width: 100%;
+	height:100vh;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+#banner1
+{
+	width: 100%;
+	height: 100px;
+  background-color: #1A275B;
+  border-bottom: 1px solid rgb(58, 46, 224);
+}
+#banner2
+{
+  background-image: url(images/1.jpeg);
+  width: 100%;
+  height:300px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+#navtitle
+{
+	padding-top: 150px;
+}
+#divider
+{
+	max-width: 10rem;
+	border-width: .1rem;
+	border-color:#4DB6AC;
+}
+
+#contact
+{
+	padding-top: 100px;
+}
+#card
+{
+	padding-top: 0;
+}
+.main .sidenav{
+  background-color:  #1A275B;
+  height: auto;
+  padding: 0;
+}
+
+.main .sidenav .header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 20px 35px;
+}
+
+.main .sidenav .header i{
+  margin-top: 4px;
+}
+.main .sidenav .list ul{
+  list-style: none;
+}
+.main .sidenav .list ul li {
+   margin-top: 10px;
+   font-size: 0.77777rem;
+   padding: 10px 35px;
+   font-weight: 600;
+}
+/*.main .sidenav .list ul li.active{
+   background-color: rgb(84, 86, 233);
+   border-left: 20px solid rgb(46, 49, 201);
+   padding-left: 13px;
+}*/
+.main .sidenav .list ul li a:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
+.main .sidenav .list ul li a i{
+  padding-right: 10px;
+}
+/* favs */
+.main .sidenav .favs ul li{
+  display: flex;
+  justify-content: space-between;
+}
+.main .sidenav .favs ul li .category{
+  display: flex;
+}
+.main .sidenav .favs ul li .category .image{
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.main .sidenav .favs ul li .category p{
+  margin-top: 7px;
+  text-transform: capitalize;
+}
+.main .sidenav .favs ul li span{
+  margin-top: 8px;
+}
+.profile{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+}
+input , textarea{
+  background-color: transparent;
+  border: 0;
+  padding-left: 10px;
+  color: #ffffff;
+  font-size: 0.8888rem;
+  outline: none;
+  width: 100%;
+}
+.main .bigArea{
+  padding: 30px;
+}
+.main .bigArea .update{
+  margin-bottom: 20px;
+  background-color: #1A275B;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  border-radius: 3px;
+}
+.main .bigArea .parent .update .upper , 
+.main .bigArea .parent .update .activity{
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0 0 0;
+  border-bottom: 1px solid rgb(58, 46, 224);
+} 
+.main .bigArea .parent .update .upper p,
+.main .bigArea .parent .update .activity p{
+  font-size: 0.77777rem;
+  font-weight: 500;
+  border-right: 2px solid white;
+  padding-right: 50px;
+  cursor: pointer;
+}
+.main .bigArea .parent .update .upper p i,
+.main .bigArea .parent .update .activity p i{
+  padding-right: 8px;
+}
+.main .bigArea .parent .update .write{
+  padding: 20px;
+  display: flex;
+  border-bottom: 1px solid rgb(58, 46, 224);
+}
+.main .bigArea .parent .update .write textarea{
+  padding: 10px 0 0 0;
+  width: 100%;
+  resize: none;
+}
+.main .bigArea .parent .update .activity{
+  border: none;
+}
+.main .bigArea .parent .update .activity p{
+  padding-top:10px ;
+}
+
+.main .bigArea .parent .timeline{
+  background-color: #1A275B;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+}
+.main .bigArea .parent .timeline .post-info , 
+.main .bigArea .parent .timeline .post-info .perosn,
+.main .bigArea .parent .timeline .post-info .dots{
+  display: flex;
+}
+.main .bigArea .parent .timeline .post-info .dots span
+{
+  height: 5px;
+  width: 5px;
+  background-color: rgb(170, 170, 170);
+  border-radius: 50%;
+  margin: 2px;
+}
+.main .bigArea .parent .timeline .post-info .perosn .profile{
+  margin-top: 6px;
+  padding-right: 60px;
+}
+.main .bigArea .parent .timeline .post-info{
+  justify-content: space-between;
+}
+.main .bigArea .parent .timeline .post-info .perosn .desc h5{
+  font-size: 1.3rem;
+  margin: 0;
+}
+.main .bigArea .parent .timeline .post-info .perosn .desc p{
+  color: lightgray;
+  font-size: 0.777rem;
+  border:0;
+}
+.main .bigArea .parent .timeline .post
+{
+  border-top: 1px solid rgb(58, 46, 224);
+  border-bottom: 1px solid rgb(58, 46, 224);
+}
+.main .bigArea .parent .timeline .actions{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 30px 10px 10px 10px;
+  border-bottom: 1px solid rgb(58, 46, 224);
+}
+.main .bigArea .parent .timeline .actions p{
+  font-size: 0.77777rem;
+  font-weight: 500;
+  border-right: 2px solid white;
+  padding-right: 50px;
+  cursor: pointer;
+}
+.main .bigArea .parent .timeline .actions p i{
+  padding-right: 8px;
+}
+
+.main .relax .fresh .books
+{
+  margin-bottom: 20px;
+  background-color: #1A275B;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  border-radius: 3px;
+}
+.main .relax .fresh .books. img
+{
+  border-right: 1px solid rgb(58, 46, 224);
+  border-left: 1px solid rgb(58, 46, 224);
+  border-bottom: 1px solid rgb(58, 46, 224);
+}
+.main .relax .fresh .books .title
+{
+  border-bottom: 1px solid rgb(58, 46, 224);
+}
+.main .relax .fresh .books p
+{
+  font-size: 0.77777rem;
+}
+.main .relax .fresh .books .image
+{
+  text-align: center;
+}
+.main .relax .fresh .music
+{
+  margin-bottom: 20px;
+  background-color: #1A275B;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  border-radius: 3px;
+}
+.main .friends .active_now
+{
+  margin-bottom: 20px;
+  background-color: #1A275B;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  border-radius: 3px;
+}
+.main .friends .active_now .friend
+{
+  border-bottom: 1px solid rgb(58, 46, 224);
+}
+.main .friends .active_now .people
+{
+  display: flex;
+}
+.main .friends .active_now .people .name
+{
+  font-size: 1.3rem;
+  margin: 0;
+}
+.color
+{
+  color:white;
+}
